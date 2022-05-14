@@ -50,7 +50,7 @@ a1.onmouseover= function shadow (){a2.style.color='lightgrey';
                                    a3.style.color='lightgrey';
                                    a4.style.color='lightgrey';
                                    a5.style.color='lightgrey';
-                                   a1.style.fontSize='150%';
+                                   a1.style.fontSize='120%';
                                    a1.style.color='#D90012';
                                    a1.style.transition = "all 0.3s";
                                    }; 
@@ -73,7 +73,7 @@ a2.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a3.style.color='lightgrey';
                                      a4.style.color='lightgrey';
                                      a5.style.color='lightgrey';
-                                     a2.style.fontSize='150%';
+                                     a2.style.fontSize='120%';
                                      a2.style.color='#001489';
                                      a2.style.transition = "all 0.3s";};
   
@@ -95,7 +95,7 @@ a3.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a2.style.color='lightgrey';
                                      a4.style.color='lightgrey';
                                      a5.style.color='lightgrey';
-                                     a3.style.fontSize='150%';
+                                     a3.style.fontSize='120%';
                                      a3.style.color='#FF9E1B';
                                      a3.style.transition = "all 0.3s";};
   
@@ -117,7 +117,7 @@ a4.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a2.style.color='lightgrey';
                                      a3.style.color='lightgrey';
                                      a5.style.color='lightgrey';
-                                     a4.style.fontSize='150%';
+                                     a4.style.fontSize='120%';
                                      a4.style.color='#D90012';
                                      a4.style.transition = "all 0.3s";};
   
@@ -139,7 +139,7 @@ a5.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a2.style.color='lightgrey';
                                      a3.style.color='lightgrey';
                                      a4.style.color='lightgrey';
-                                     a5.style.fontSize='150%';
+                                     a5.style.fontSize='120%';
                                      a5.style.color='#001489';
                                      a5.style.transition = "all 0.3s";};
   
@@ -163,7 +163,7 @@ a6.onmouseover= function shadow (){a7.style.color='lightgrey';
                                    a8.style.color='lightgrey';
                                    a9.style.color='lightgrey';
                                    
-                                   a6.style.fontSize='150%';
+                                   a6.style.fontSize='120%';
                                    a6.style.color='#D90012';
                                    a6.style.transition = "all 0.3s";
                                    }; 
@@ -186,8 +186,8 @@ a7.onmouseover= function shadow (){a6.style.color='lightgrey';
                                    a8.style.color='lightgrey';
                                    a9.style.color='lightgrey';
                                    
-                                   a7.style.fontSize='150%';
-                                   a7.style.color='#D90012';
+                                   a7.style.fontSize='120%';
+                                   a7.style.color='#001489';
                                    a7.style.transition = "all 0.3s";
                                    }; 
 
@@ -201,8 +201,50 @@ a7.onmouseout= function outShadow (){a6.style.color='black';
                                      a7.style.fontSize='100%';
                                      a7.style.color='black';
                                      a7.style.transition = "all 0.3s";};
+/*8*/
+
+a8.onmouseover= function shadow (){a6.style.color='lightgrey';
+                                   
+                                   a7.style.color='lightgrey';
+                                   a9.style.color='lightgrey';
+                                   
+                                   a8.style.fontSize='120%';
+                                   a8.style.color='#FF9E1B';
+                                   a8.style.transition = "all 0.3s";
+                                   }; 
 
 
+
+a8.onmouseout= function outShadow (){a6.style.color='black';
+                                     a7.style.color='black';
+                                     a9.style.color='black';
+                                     
+                                     a8.style.fontSize='none';
+                                     a8.style.fontSize='100%';
+                                     a8.style.color='black';
+                                     a8.style.transition = "all 0.3s";};
+/*9*/
+
+a9.onmouseover= function shadow (){a6.style.color='lightgrey';
+                                   
+                                   a7.style.color='lightgrey';
+                                   a8.style.color='lightgrey';
+                                   
+                                   a9.style.fontSize='120%';
+                                   a9.style.color='#D90012';
+                                   a9.style.transition = "all 0.3s";
+                                   }; 
+
+
+
+a9.onmouseout= function outShadow (){a6.style.color='black';
+                                     a7.style.color='black';
+                                     a8.style.color='black';
+                                     
+                                     a9.style.fontSize='none';
+                                     a9.style.fontSize='100%';
+                                     a9.style.color='black';
+                                     a9.style.transition = "all 0.3s";};
 
 
 
