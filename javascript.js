@@ -37,8 +37,10 @@
  var a31 = document.getElementById('a31');
  var a32 = document.getElementById('a32');
  var focusFocus = document.getElementById('focusFocus');
+ var it = document.getElementById('it');
 
- var b1 = document.getElementById('b1');
+ 
+  
  
   
 /*presente*/
@@ -255,7 +257,29 @@ a9.onmouseout= function outShadow (){a6.style.color='black';
 
 
 
-b1.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
+b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
+  var color = "red";
+  
+  function BlinkIt () {
+    var blink = document.getElementById ("it");
+    color = (color == "#ffffff")? "red" : "#ffffff";
+    blink.style.color = color;
+    blink.style.fontSize='24px';
+  }}; 
+
+
+  
+
+ 
+
+  
+   
+  
+
+  
+
+
+
 b2.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b3.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b4.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
@@ -274,7 +298,17 @@ b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA 
 
 
 
-                                   
+/*window.setInterval (BlinkIt, 500);
+var color = "red";
+
+function BlinkIt () {
+  var blink = document.getElementById ("it");
+  color = (color == "#ffffff")? "red" : "#ffffff";
+  blink.style.color = color;
+  blink.style.fontSize='36px';
+}*/
+
+                           
 
 
 
@@ -283,9 +317,14 @@ b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA 
 
 shadow();
 outShadow();
-personalPronom()
-wordIluminated()
+personalPronom();
+wordIluminated();
+wordIluminated2();
+   ;
 
+  
+
+/************************************************************ */
 
 
  
