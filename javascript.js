@@ -38,6 +38,7 @@
  var a32 = document.getElementById('a32');
  var focusFocus = document.getElementById('focusFocus');
  var it = document.getElementById('it');
+ var b1 = document.getElementById('b1');
 
  
   
@@ -55,7 +56,18 @@ a1.onmouseover= function shadow (){a2.style.color='lightgrey';
                                    a1.style.fontSize='120%';
                                    a1.style.color='#D90012';
                                    a1.style.transition = "all 0.3s";
+                                   a1.style.backgroundColor='#eeeeee';
+                                   a1.style.padding='1px';
+                                   
+
                                    }; 
+
+b1.onmouseover= function underLine (){b1.style.textDecoration='underline'};
+b1.onmouseout= function underLine (){b1.style.textDecoration='none'};
+                                   
+                                   
+
+                                 
 
 
 
@@ -66,7 +78,8 @@ a1.onmouseout= function outShadow (){a2.style.color='black';
                                      a1.style.fontSize='none';
                                      a1.style.fontSize='100%';
                                      a1.style.color='black';
-                                     a1.style.transition = "all 0.3s";};
+                                     a1.style.transition = "all 0.3s";
+                                     a1.style.background='none'};
 
 /* 2*/
 
@@ -77,7 +90,9 @@ a2.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a5.style.color='lightgrey';
                                      a2.style.fontSize='120%';
                                      a2.style.color='#001489';
-                                     a2.style.transition = "all 0.3s";};
+                                     a2.style.transition = "all 0.3s";
+                                     a2.style.backgroundColor='#eeeeee';
+                                     a2.style.padding='1px';};
   
   
   
@@ -88,7 +103,9 @@ a2.onmouseover= function shadow (){a1.style.color='lightgrey';
                                        a2.style.fontSize='none';
                                        a2.style.fontSize='100%';
                                        a2.style.color='black';
-                                       a2.style.transition = "all 0.3s";};
+                                       a2.style.transition = "all 0.3s";
+                                       
+                                       a2.style.background='none'};
 
 /*3*/
 
@@ -98,8 +115,10 @@ a3.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a4.style.color='lightgrey';
                                      a5.style.color='lightgrey';
                                      a3.style.fontSize='120%';
-                                     a3.style.color='#FF9E1B';
-                                     a3.style.transition = "all 0.3s";};
+                                     a3.style.color='#df5838';
+                                     a3.style.transition = "all 0.3s";
+                                     a3.style.backgroundColor='#eeeeee';
+                                     a3.style.padding='1px';};
   
   
   
@@ -110,7 +129,11 @@ a3.onmouseover= function shadow (){a1.style.color='lightgrey';
                                        a3.style.fontSize='none';
                                        a3.style.fontSize='100%';
                                        a3.style.color='black';
-                                       a3.style.transition = "all 0.3s";};
+                                       a3.style.transition = "all 0.3s";
+                                       
+                                       a3.style.background='none';
+                                        
+                                      };
 
 /*4*/
 
@@ -121,7 +144,9 @@ a4.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a5.style.color='lightgrey';
                                      a4.style.fontSize='120%';
                                      a4.style.color='#D90012';
-                                     a4.style.transition = "all 0.3s";};
+                                     a4.style.transition = "all 0.3s";
+                                     a4.style.backgroundColor='#eeeeee';
+                                     a4.style.padding='1px';};
   
   
   
@@ -132,7 +157,8 @@ a4.onmouseover= function shadow (){a1.style.color='lightgrey';
                                        a4.style.fontSize='none';
                                        a4.style.fontSize='100%';
                                        a4.style.color='black';
-                                       a4.style.transition = "all 0.3s";};
+                                       a4.style.transition = "all 0.3s";
+                                       a4.style.background='none';};
 
 /*5*/
 
@@ -143,7 +169,9 @@ a5.onmouseover= function shadow (){a1.style.color='lightgrey';
                                      a4.style.color='lightgrey';
                                      a5.style.fontSize='120%';
                                      a5.style.color='#001489';
-                                     a5.style.transition = "all 0.3s";};
+                                     a5.style.transition = "all 0.3s";
+                                     a5.style.backgroundColor='#eeeeee';
+                                     a5.style.padding='1px';};
   
   
   
@@ -154,7 +182,8 @@ a5.onmouseover= function shadow (){a1.style.color='lightgrey';
                                        a5.style.fontSize='100%';
                                        a5.style.fontSize='none';
                                        a5.style.color='black';
-                                       a5.style.transition = "all 0.3s";};
+                                       a5.style.transition = "all 0.3s";
+                                       a5.style.background='none';};
 
 /* pasado*/
 
@@ -168,6 +197,9 @@ a6.onmouseover= function shadow (){a7.style.color='lightgrey';
                                    a6.style.fontSize='120%';
                                    a6.style.color='#D90012';
                                    a6.style.transition = "all 0.3s";
+                                   a5.style.transition = "all 0.3s";
+                                   a6.style.backgroundColor='#eeeeee';
+                                   a6.style.padding='1px';
                                    }; 
 
 
@@ -179,7 +211,8 @@ a6.onmouseout= function outShadow (){a7.style.color='black';
                                      a6.style.fontSize='none';
                                      a6.style.fontSize='100%';
                                      a6.style.color='black';
-                                     a6.style.transition = "all 0.3s";};
+                                     a6.style.transition = "all 0.3s";
+                                     a6.style.background='none';};
 
 /*7*/
 
@@ -191,6 +224,8 @@ a7.onmouseover= function shadow (){a6.style.color='lightgrey';
                                    a7.style.fontSize='120%';
                                    a7.style.color='#001489';
                                    a7.style.transition = "all 0.3s";
+                                   a7.style.backgroundColor='#eeeeee';
+                                   a7.style.padding='1px';
                                    }; 
 
 
@@ -202,7 +237,8 @@ a7.onmouseout= function outShadow (){a6.style.color='black';
                                      a7.style.fontSize='none';
                                      a7.style.fontSize='100%';
                                      a7.style.color='black';
-                                     a7.style.transition = "all 0.3s";};
+                                     a7.style.transition = "all 0.3s";
+                                     a7.style.background='none';};
 /*8*/
 
 a8.onmouseover= function shadow (){a6.style.color='lightgrey';
@@ -211,8 +247,10 @@ a8.onmouseover= function shadow (){a6.style.color='lightgrey';
                                    a9.style.color='lightgrey';
                                    
                                    a8.style.fontSize='120%';
-                                   a8.style.color='#FF9E1B';
+                                   a8.style.color='#df5838';
                                    a8.style.transition = "all 0.3s";
+                                   a8.style.backgroundColor='#eeeeee';
+                                   a8.style.padding='1px';
                                    }; 
 
 
@@ -224,7 +262,8 @@ a8.onmouseout= function outShadow (){a6.style.color='black';
                                      a8.style.fontSize='none';
                                      a8.style.fontSize='100%';
                                      a8.style.color='black';
-                                     a8.style.transition = "all 0.3s";};
+                                     a8.style.transition = "all 0.3s";
+                                     a8.style.background='none';};
 /*9*/
 
 a9.onmouseover= function shadow (){a6.style.color='lightgrey';
@@ -235,6 +274,8 @@ a9.onmouseover= function shadow (){a6.style.color='lightgrey';
                                    a9.style.fontSize='120%';
                                    a9.style.color='#D90012';
                                    a9.style.transition = "all 0.3s";
+                                   a9.style.backgroundColor='#eeeeee';
+                                   a9.style.padding='1px';
                                    }; 
 
 
@@ -246,18 +287,123 @@ a9.onmouseout= function outShadow (){a6.style.color='black';
                                      a9.style.fontSize='none';
                                      a9.style.fontSize='100%';
                                      a9.style.color='black';
-                                     a9.style.transition = "all 0.3s";};
+                                     a9.style.transition = "all 0.3s";
+                                     a9.style.background='none';};
+
+
+/*futuro*/
+
+/*10*/
+
+a10.onmouseover= function shadow (){a11.style.color='lightgrey';
+                                   
+                                   a12.style.color='lightgrey';
+                                   a13.style.color='lightgrey';
+                                   
+                                   a10.style.fontSize='120%';
+                                   a10.style.color='#D90012';
+                                   a10.style.transition = "all 0.3s";
+                                   a10.style.backgroundColor='#eeeeee';
+                                   a10.style.padding='1px';
+                                   }; 
+
+
+
+a10.onmouseout= function outShadow (){a11.style.color='black';
+                                     a12.style.color='black';
+                                     a13.style.color='black';
+                                     
+                                     a10.style.fontSize='none';
+                                     a10.style.fontSize='100%';
+                                     a10.style.color='black';
+                                     a10.style.transition = "all 0.3s";
+                                     a10.style.background='none';};
+
+/*11*/
+
+a11.onmouseover= function shadow (){a10.style.color='lightgrey';
+                                   
+                                   a12.style.color='lightgrey';
+                                   a13.style.color='lightgrey';
+                                   
+                                   a11.style.fontSize='120%';
+                                   a11.style.color='#001489';
+                                   a11.style.transition = "all 0.3s";
+                                   a11.style.backgroundColor='#eeeeee';
+                                   a11.style.padding='1px';
+                                   }; 
+
+
+
+a11.onmouseout= function outShadow (){a10.style.color='black';
+                                     a12.style.color='black';
+                                     a13.style.color='black';
+                                     
+                                     a11.style.fontSize='none';
+                                     a11.style.fontSize='100%';
+                                     a11.style.color='black';
+                                     a11.style.transition = "all 0.3s";
+                                     a11.style.background='none';};
+
+/*12*/
+
+a12.onmouseover= function shadow (){a10.style.color='lightgrey';
+                                   
+                                   a11.style.color='lightgrey';
+                                   a13.style.color='lightgrey';
+                                   
+                                   a12.style.fontSize='120%';
+                                   a12.style.color='#df5838';
+                                   a12.style.transition = "all 0.3s";
+                                   a12.style.backgroundColor='#eeeeee';
+                                   a12.style.padding='1px';
+                                   }; 
+
+
+
+a12.onmouseout= function outShadow (){a10.style.color='black';
+                                     a11.style.color='black';
+                                     a13.style.color='black';
+                                     
+                                     a12.style.fontSize='none';
+                                     a12.style.fontSize='100%';
+                                     a12.style.color='black';
+                                     a12.style.transition = "all 0.3s";
+                                     a12.style.background='none';};
+
+/*13*/
+
+a13.onmouseover= function shadow (){a10.style.color='lightgrey';
+                                   
+                                   a11.style.color='lightgrey';
+                                   a12.style.color='lightgrey';
+                                   
+                                   a13.style.fontSize='120%';
+                                   a13.style.color='#D90012';
+                                   a13.style.transition = "all 0.3s";
+                                   a13.style.transition = "all 0.3s";
+                                   a13.style.background='none';
+                                   a13.style.backgroundColor='#eeeeee';
+                                   a13.style.padding='1px';
+                                   }; 
+
+
+
+a13.onmouseout= function outShadow (){a10.style.color='black';
+                                     a11.style.color='black';
+                                     a12.style.color='black';
+                                     
+                                     a13.style.fontSize='none';
+                                     a13.style.fontSize='100%';
+                                     a13.style.color='black';
+                                     a13.style.transition = "all 0.3s";
+                                     a13.style.background='none';};
 
 
 
 
 
-
-
-
-
-
-b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
+/*b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
   var color = "red";
   
   function BlinkIt () {
@@ -265,8 +411,12 @@ b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
     color = (color == "#ffffff")? "red" : "#ffffff";
     blink.style.color = color;
     blink.style.fontSize='24px';
-  }}; 
+  }}; */
 
+  
+
+  
+  
 
   
 
@@ -280,14 +430,14 @@ b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
 
 
 
-b2.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
+/*b2.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b3.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b4.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b5.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
 b10.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
 b11.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
 b12.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
-b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
+b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; */
  
 
                                    
@@ -316,10 +466,12 @@ function BlinkIt () {
 
 
 shadow();
+underLine ();
 outShadow();
 personalPronom();
 wordIluminated();
-wordIluminated2();
+onParentesis();
+underLine ()
    ;
 
   
