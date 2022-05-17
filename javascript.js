@@ -399,6 +399,216 @@ a13.onmouseout= function outShadow (){a10.style.color='black';
                                      a13.style.transition = "all 0.3s";
                                      a13.style.background='none';};
 
+/*14*/
+
+a14.onmouseover= function shadow (){a15.style.color='lightgrey';
+                                   
+                                   a16.style.color='lightgrey';
+                                   a17.style.color='lightgrey';
+                                   a18.style.color='lightgrey';
+                                   a19.style.color='lightgrey';
+                                   
+                                   a14.style.fontSize='120%';
+                                   a14.style.color='#D90012';
+                                   a14.style.transition = "all 0.3s";
+                                   a14.style.transition = "all 0.3s";
+                                   a14.style.background='none';
+                                   a14.style.backgroundColor='#eeeeee';
+                                   a14.style.padding='1px';
+                                   }; 
+
+
+
+
+a14.onmouseout= function outShadow (){a15.style.color='black';
+                                   
+                                     a16.style.color='black';
+                                     a17.style.color='black';
+                                     a18.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a14.style.fontSize='none';
+                                     a14.style.fontSize='100%';
+                                     a14.style.color='black';
+                                     a14.style.transition = "all 0.3s";
+                                     a14.style.background='none';};
+
+/*15*/
+
+a15.onmouseover= function shadow (){a14.style.color='lightgrey';
+                                   
+                                   a16.style.color='lightgrey';
+                                   a17.style.color='lightgrey';
+                                   a18.style.color='lightgrey';
+                                   a19.style.color='lightgrey';
+                                   
+                                   a15.style.fontSize='120%';
+                                   a15.style.color='#001489';
+                                   a15.style.transition = "all 0.3s";
+                                   a15.style.transition = "all 0.3s";
+                                   a15.style.background='none';
+                                   a15.style.backgroundColor='#eeeeee';
+                                   a15.style.padding='1px';
+                                   }; 
+
+
+
+
+a15.onmouseout= function outShadow (){a14.style.color='black';
+                                   
+                                     a16.style.color='black';
+                                     a17.style.color='black';
+                                     a18.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a15.style.fontSize='none';
+                                     a15.style.fontSize='100%';
+                                     a15.style.color='black';
+                                     a15.style.transition = "all 0.3s";
+                                     a15.style.background='none';};
+
+/*16*/
+
+a16.onmouseover= function shadow (){a14.style.color='lightgrey';
+                                   
+                                   a15.style.color='lightgrey';
+                                   a17.style.color='lightgrey';
+                                   a18.style.color='lightgrey';
+                                   a19.style.color='lightgrey';
+                                   
+                                   a16.style.fontSize='120%';
+                                   a16.style.color='#df5838';
+                                   a16.style.transition = "all 0.3s";
+                                   a16.style.transition = "all 0.3s";
+                                   a16.style.background='none';
+                                   a16.style.backgroundColor='#eeeeee';
+                                   a16.style.padding='1px';
+                                   }; 
+
+
+
+
+a16.onmouseout= function outShadow (){a14.style.color='black';
+                                   
+                                     a15.style.color='black';
+                                     a17.style.color='black';
+                                     a18.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a16.style.fontSize='none';
+                                     a16.style.fontSize='100%';
+                                     a16.style.color='black';
+                                     a16.style.transition = "all 0.3s";
+                                     a16.style.background='none';};
+
+/*17*/
+
+a17.onmouseover= function shadow (){a14.style.color='lightgrey';
+                                   
+                                   a15.style.color='lightgrey';
+                                   a16.style.color='lightgrey';
+                                   a18.style.color='lightgrey';
+                                   a19.style.color='lightgrey';
+                                   
+                                   a17.style.fontSize='120%';
+                                   a17.style.color='#D90012';
+                                   a17.style.transition = "all 0.3s";
+                                   a17.style.transition = "all 0.3s";
+                                   a17.style.background='none';
+                                   a17.style.backgroundColor='#eeeeee';
+                                   a17.style.padding='1px';
+                                   }; 
+
+
+
+
+a17.onmouseout= function outShadow (){a14.style.color='black';
+                                   
+                                     a15.style.color='black';
+                                     a16.style.color='black';
+                                     a18.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a17.style.fontSize='none';
+                                     a17.style.fontSize='100%';
+                                     a17.style.color='black';
+                                     a17.style.transition = "all 0.3s";
+                                     a17.style.background='none';};
+
+/*18*/
+a18.onmouseover= function shadow (){a14.style.color='lightgrey';
+                                   
+                                   a15.style.color='lightgrey';
+                                   a16.style.color='lightgrey';
+                                   a17.style.color='lightgrey';
+                                   a19.style.color='lightgrey';
+                                   
+                                   a18.style.fontSize='120%';
+                                   a18.style.color='#001489';
+                                   a18.style.transition = "all 0.3s";
+                                   a18.style.transition = "all 0.3s";
+                                   a18.style.background='none';
+                                   a18.style.backgroundColor='#eeeeee';
+                                   a18.style.padding='1px';
+                                   }; 
+
+
+
+
+a18.onmouseout= function outShadow (){a14.style.color='black';
+                                   
+                                     a15.style.color='black';
+                                     a16.style.color='black';
+                                     a17.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a18.style.fontSize='none';
+                                     a18.style.fontSize='100%';
+                                     a18.style.color='black';
+                                     a18.style.transition = "all 0.3s";
+                                     a18.style.background='none';};
+
+/*19*/
+
+a19.onmouseover= function shadow (){a14.style.color='lightgrey';
+                                   
+                                   a15.style.color='lightgrey';
+                                   a16.style.color='lightgrey';
+                                   a18.style.color='lightgrey';
+                                   a17.style.color='lightgrey';
+                                   
+                                   a19.style.fontSize='120%';
+                                   a19.style.color='#df5838';
+                                   a19.style.transition = "all 0.3s";
+                                   a19.style.transition = "all 0.3s";
+                                   a19.style.background='none';
+                                   a19.style.backgroundColor='#eeeeee';
+                                   a19.style.padding='1px';
+                                   }; 
+
+
+
+
+a19.onmouseout= function outShadow (){a14.style.color='black';
+                                   
+                                     a15.style.color='black';
+                                     a16.style.color='black';
+                                     a17.style.color='black';
+                                     a19.style.color='black';
+
+                                     
+                                     a19.style.fontSize='none';
+                                     a19.style.fontSize='100%';
+                                     a19.style.color='black';
+                                     a19.style.transition = "all 0.3s";
+                                     a19.style.background='none';};
+
+
 
 
 
@@ -411,7 +621,11 @@ a13.onmouseout= function outShadow (){a10.style.color='black';
     color = (color == "#ffffff")? "red" : "#ffffff";
     blink.style.color = color;
     blink.style.fontSize='24px';
-  }}; */
+  }};
+  
+  
+  
+  */
 
   
 
