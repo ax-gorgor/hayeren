@@ -608,9 +608,205 @@ a19.onmouseout= function outShadow (){a14.style.color='black';
                                      a19.style.transition = "all 0.3s";
                                      a19.style.background='none';};
 
+/*20*/
+
+a20.onmouseover= function shadow (){a21.style.color='lightgrey';
+                                   
+                                   a22.style.color='lightgrey';
+                                   a23.style.color='lightgrey';
+                                   a24.style.color='lightgrey';
+                                   a25.style.color='lightgrey';
+                                   
+                                   a20.style.fontSize='120%';
+                                   a20.style.color='#D90012';
+                                   a20.style.transition = "all 0.3s";
+                                   a20.style.transition = "all 0.3s";
+                                   a20.style.background='none';
+                                   a20.style.backgroundColor='#eeeeee';
+                                   a20.style.padding='1px';
+                                   }; 
 
 
 
+
+a20.onmouseout= function outShadow (){a21.style.color='black';
+                                   
+                                     a22.style.color='black';
+                                     a23.style.color='black';
+                                     a24.style.color='black';
+                                     a25.style.color='black';
+
+                                     
+                                     a20.style.fontSize='none';
+                                     a20.style.fontSize='100%';
+                                     a20.style.color='black';
+                                     a20.style.transition = "all 0.3s";
+                                     a20.style.background='none';};
+/*21*/
+
+a21.onmouseover= function shadow (){a20.style.color='lightgrey';
+                                   
+                                   a22.style.color='lightgrey';
+                                   a23.style.color='lightgrey';
+                                   a24.style.color='lightgrey';
+                                   a25.style.color='lightgrey';
+                                   
+                                   a21.style.fontSize='120%';
+                                   a21.style.color='#001489';
+                                   a21.style.transition = "all 0.3s";
+                                   a21.style.transition = "all 0.3s";
+                                   a21.style.background='none';
+                                   a21.style.backgroundColor='#eeeeee';
+                                   a21.style.padding='1px';
+                                   }; 
+
+
+
+
+a21.onmouseout= function outShadow (){a20.style.color='black';
+                                   
+                                     a22.style.color='black';
+                                     a23.style.color='black';
+                                     a24.style.color='black';
+                                     a25.style.color='black';
+
+                                     
+                                     a21.style.fontSize='none';
+                                     a21.style.fontSize='100%';
+                                     a21.style.color='black';
+                                     a21.style.transition = "all 0.3s";
+                                     a21.style.background='none';};
+/*22*/
+
+a22.onmouseover= function shadow (){a20.style.color='lightgrey';
+                                   
+                                   a21.style.color='lightgrey';
+                                   a23.style.color='lightgrey';
+                                   a24.style.color='lightgrey';
+                                   a25.style.color='lightgrey';
+                                   
+                                   a22.style.fontSize='120%';
+                                   a22.style.color='#df5838';
+                                   a22.style.transition = "all 0.3s";
+                                   a22.style.transition = "all 0.3s";
+                                   a22.style.background='none';
+                                   a22.style.backgroundColor='#eeeeee';
+                                   a22.style.padding='1px';
+                                   }; 
+
+
+
+
+a22.onmouseout= function outShadow (){a20.style.color='black';
+                                   
+                                     a21.style.color='black';
+                                     a23.style.color='black';
+                                     a24.style.color='black';
+                                     a25.style.color='black';
+
+                                     
+                                     a22.style.fontSize='none';
+                                     a22.style.fontSize='100%';
+                                     a22.style.color='black';
+                                     a22.style.transition = "all 0.3s";
+                                     a22.style.background='none';};
+/*23*/
+
+a23.onmouseover= function shadow (){a20.style.color='lightgrey';
+                                   
+                                   a21.style.color='lightgrey';
+                                   a22.style.color='lightgrey';
+                                   a24.style.color='lightgrey';
+                                   a25.style.color='lightgrey';
+                                   
+                                   a23.style.fontSize='120%';
+                                   a23.style.color='#D90012';
+                                   a23.style.transition = "all 0.3s";
+                                   a23.style.transition = "all 0.3s";
+                                   a23.style.background='none';
+                                   a23.style.backgroundColor='#eeeeee';
+                                   a23.style.padding='1px';
+                                   }; 
+
+
+
+
+a23.onmouseout= function outShadow (){a20.style.color='black';
+                                   
+                                     a21.style.color='black';
+                                     a22.style.color='black';
+                                     a24.style.color='black';
+                                     a25.style.color='black';
+
+                                     
+                                     a23.style.fontSize='none';
+                                     a23.style.fontSize='100%';
+                                     a23.style.color='black';
+                                     a23.style.transition = "all 0.3s";
+                                     a23.style.background='none';};
+/*24*/
+
+a24.onmouseover= function shadow (){a20.style.color='lightgrey';
+                                   
+                                   a21.style.color='lightgrey';
+                                   a22.style.color='lightgrey';
+                                   a23.style.color='lightgrey';
+                                   a25.style.color='lightgrey';
+                                   
+                                   a24.style.fontSize='120%';
+                                   a24.style.color='#001489';
+                                   a24.style.transition = "all 0.3s";
+                                   a24.style.transition = "all 0.3s";
+                                   a24.style.background='none';
+                                   a24.style.backgroundColor='#eeeeee';
+                                   a24.style.padding='1px';
+                                   }; 
+
+a24.onmouseout= function outShadow (){a20.style.color='black';
+                                   
+                                   a21.style.color='black';
+                                   a22.style.color='black';
+                                   a23.style.color='black';
+                                   a25.style.color='black';
+
+                                   
+                                   a24.style.fontSize='none';
+                                   a24.style.fontSize='100%';
+                                   a24.style.color='black';
+                                   a24.style.transition = "all 0.3s";
+                                   a24.style.background='none';};
+/*25*/
+
+a25.onmouseover= function shadow (){a20.style.color='lightgrey';
+                                   
+                                   a21.style.color='lightgrey';
+                                   a22.style.color='lightgrey';
+                                   a23.style.color='lightgrey';
+                                   a24.style.color='lightgrey';
+                                   
+                                   a25.style.fontSize='120%';
+                                   a25.style.color='#df5838';
+                                   a25.style.transition = "all 0.3s";
+                                   a25.style.transition = "all 0.3s";
+                                   a25.style.background='none';
+                                   a25.style.backgroundColor='#eeeeee';
+                                   a25.style.padding='1px';
+                                   }; 
+
+
+ a25.onmouseout= function outShadow (){a20.style.color='black';
+                                   
+                                     a21.style.color='black';
+                                     a22.style.color='black';
+                                     a23.style.color='black';
+                                     a24.style.color='black';
+
+                                     
+                                     a25.style.fontSize='none';
+                                     a25.style.fontSize='100%';
+                                     a25.style.color='black';
+                                     a25.style.transition = "all 0.3s";
+                                     a25.style.background='none';};
 
 
 /*b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
@@ -662,18 +858,31 @@ b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA 
 
 
 
-/*window.setInterval (BlinkIt, 500);
-var color = "red";
+b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
+  var color = "red";
+  
+  function BlinkIt () {
+    const blink = document.getElementById ("it");
+    color = (color == "#ffffff")? "red" : "#ffffff";
+    blink.style.color = color;
+    blink.style.fontSize='24px';
+  }};
 
-function BlinkIt () {
-  var blink = document.getElementById ("it");
-  color = (color == "#ffffff")? "red" : "#ffffff";
-  blink.style.color = color;
-  blink.style.fontSize='36px';
-}*/
-
+  it.onmouseover= function jsPausar() {window.clearInterval (BlinkIt);
+    };
+  
                            
+ 
 
+ 
+
+
+
+
+
+
+
+ 
 
 
   
@@ -684,11 +893,15 @@ underLine ();
 outShadow();
 personalPronom();
 wordIluminated();
+jsPausar()
+
+/*
+wordIluminated();
 onParentesis();
-underLine ()
+underLine ();
    ;
 
-  
+  */
 
 /************************************************************ */
 
