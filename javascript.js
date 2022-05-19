@@ -822,7 +822,7 @@ b1.onmouseover= function rojoIn(){
 blink.onmouseover= function rojoOut(){
     
   blink.style.color = 'black';
-  blink.style.fontSize  = '20px';
+  blink.style.fontSize  = '24px';
 };
 
  
