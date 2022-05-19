@@ -809,91 +809,39 @@ a25.onmouseover= function shadow (){a20.style.color='lightgrey';
                                      a25.style.background='none';};
 
 
-/*b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
-  var color = "red";
-  
-  function BlinkIt () {
-    var blink = document.getElementById ("it");
-    color = (color == "#ffffff")? "red" : "#ffffff";
-    blink.style.color = color;
-    blink.style.fontSize='24px';
-  }};
-  
-  
-  
-  */
 
-  
+var b1 = document.getElementById("b1");
+var blink = document.getElementById ("it");
 
-  
-  
+b1.onmouseover= function rojoIn(){
+    
+  blink.style.color = 'red';
+  blink.style.fontSize  = '32px';
+};
 
-  
+blink.onclick= function rojoOut(){
+    
+  blink.style.color = 'black';
+  blink.style.fontSize  = '18px';
+};
 
  
 
-  
-   
-  
-
-  
-
-
-
-/*b2.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
-b3.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
-b4.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
-b5.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "ë"');}; 
-b10.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
-b11.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
-b12.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; 
-b13.onmouseover= function wordIluminated (){alert('VER EN LINKS RELATIVOS LETRA "tz"');}; */
  
-
-                                   
-                                  
-                                     
-
-                                     
-
-
-
-b1.onmouseover= function wordIluminated (){window.setInterval (BlinkIt, 500);
-  var color = "red";
   
-  function BlinkIt () {
-    const blink = document.getElementById ("it");
-    color = (color == "#ffffff")? "red" : "#ffffff";
-    blink.style.color = color;
-    blink.style.fontSize='24px';
-  }};
-
-  it.onmouseover= function jsPausar() {window.clearInterval (BlinkIt);
-    };
-  
-                           
- 
-
- 
-
-
-
-
-
-
-
  
 
 
   
-
 
 shadow();
 underLine ();
 outShadow();
 personalPronom();
 wordIluminated();
-jsPausar()
+rojoIn();
+rojoOut();
+
 
 /*
 wordIluminated();
