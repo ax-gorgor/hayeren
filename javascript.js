@@ -819,10 +819,10 @@ b1.onmouseover= function rojoIn(){
   blink.style.fontSize  = '32px';
 };
 
-blink.onclick= function rojoOut(){
+blink.onmouseover= function rojoOut(){
     
   blink.style.color = 'black';
-  blink.style.fontSize  = '18px';
+  blink.style.fontSize  = '20px';
 };
 
  
