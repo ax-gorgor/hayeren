@@ -101,9 +101,15 @@ font-family: sans-serif;}
      .declinaciones{ color:  lightgrey}
 
      .sonidoDeLasLetras{color: black;
-                         font-size: 24px;}
+                         font-size: 20px;
+                         background: #ebebeb;
+                        padding: 5px;
+                        border-radius: 5px;
+                       }
 
  .sonidoDeLasLetras2{text-decoration: underline;}
+
+ .anclaje{margin-top: 24px;}
      
    
 
