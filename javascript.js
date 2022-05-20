@@ -112,7 +112,7 @@ myaudio2.onpause= function outShadow (){a1.style.color='black';
 
 /*3*/
 
-a3.onmouseover= function shadow (){a1.style.color='lightgrey';
+myaudio3.onplay= function shadow (){a1.style.color='lightgrey';
                                    
                                      a2.style.color='lightgrey';
                                      a4.style.color='lightgrey';
@@ -125,7 +125,7 @@ a3.onmouseover= function shadow (){a1.style.color='lightgrey';
   
   
   
-  a3.onmouseout= function outShadow (){a1.style.color='black';
+myaudio3.onpause= function outShadow (){a1.style.color='black';
                                        a2.style.color='black';
                                        a4.style.color='black';
                                        a5.style.color='black';
@@ -140,7 +140,7 @@ a3.onmouseover= function shadow (){a1.style.color='lightgrey';
 
 /*4*/
 
-a4.onmouseover= function shadow (){a1.style.color='lightgrey';
+myaudio4.onplay= function shadow (){a1.style.color='lightgrey';
                                    
                                      a2.style.color='lightgrey';
                                      a3.style.color='lightgrey';
@@ -153,7 +153,7 @@ a4.onmouseover= function shadow (){a1.style.color='lightgrey';
   
   
   
-  a4.onmouseout= function outShadow (){a1.style.color='black';
+ myaudio4.onpause= function outShadow (){a1.style.color='black';
                                        a2.style.color='black';
                                        a3.style.color='black';
                                        a5.style.color='black';
@@ -165,7 +165,7 @@ a4.onmouseover= function shadow (){a1.style.color='lightgrey';
 
 /*5*/
 
-a5.onmouseover= function shadow (){a1.style.color='lightgrey';
+myaudio5.onplay= function shadow (){a1.style.color='lightgrey';
                                    
                                      a2.style.color='lightgrey';
                                      a3.style.color='lightgrey';
@@ -178,7 +178,7 @@ a5.onmouseover= function shadow (){a1.style.color='lightgrey';
   
   
   
-  a5.onmouseout= function outShadow (){a1.style.color='black';
+myaudio5.onpause= function outShadow (){a1.style.color='black';
                                        a2.style.color='black';
                                        a3.style.color='black';
                                        a4.style.color='black';
