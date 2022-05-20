@@ -38,7 +38,8 @@
  var a32 = document.getElementById('a32');
  var focusFocus = document.getElementById('focusFocus');
  var it = document.getElementById('it');
- var b1 = document.getElementById('b1');
+ var c1 = document.getElementById('c1');
+ var myaudio = document.getElementById('myaudio');
 
  
   
@@ -48,7 +49,7 @@
 
  /*1*/
 
-a1.onmouseover= function shadow (){a2.style.color='lightgrey';
+ myaudio1.onplay= function shadow (){a2.style.color='lightgrey';
                                    
                                    a3.style.color='lightgrey';
                                    a4.style.color='lightgrey';
@@ -61,17 +62,16 @@ a1.onmouseover= function shadow (){a2.style.color='lightgrey';
                                    
 
                                    }; 
-
-b1.onmouseover= function underLine (){b1.style.textDecoration='underline'};
-b1.onmouseout= function underLine (){b1.style.textDecoration='none'};
                                    
+
+
                                    
 
                                  
 
 
 
-a1.onmouseout= function outShadow (){a2.style.color='black';
+myaudio1.onpause= function outShadow (){a2.style.color='black';
                                      a3.style.color='black';
                                      a4.style.color='black';
                                      a5.style.color='black';
@@ -83,11 +83,13 @@ a1.onmouseout= function outShadow (){a2.style.color='black';
 
 /* 2*/
 
-a2.onmouseover= function shadow (){a1.style.color='lightgrey';
+myaudio2.onplay=  function shadow (){a1.style.color='lightgrey';
                                    
                                      a3.style.color='lightgrey';
                                      a4.style.color='lightgrey';
                                      a5.style.color='lightgrey';
+                                   
+                                    
                                      a2.style.fontSize='120%';
                                      a2.style.color='#001489';
                                      a2.style.transition = "all 0.3s";
@@ -96,10 +98,11 @@ a2.onmouseover= function shadow (){a1.style.color='lightgrey';
   
   
   
-  a2.onmouseout= function outShadow (){a1.style.color='black';
+myaudio2.onpause= function outShadow (){a1.style.color='black';
                                        a3.style.color='black';
                                        a4.style.color='black';
                                        a5.style.color='black';
+                                       
                                        a2.style.fontSize='none';
                                        a2.style.fontSize='100%';
                                        a2.style.color='black';
@@ -835,13 +838,13 @@ blink.onmouseover= function rojoOut(){
   
 
 shadow();
-underLine ();
+
 outShadow();
 personalPronom();
 wordIluminated();
 rojoIn();
 rojoOut();
-
+underLine();
 
 /*
 wordIluminated();
