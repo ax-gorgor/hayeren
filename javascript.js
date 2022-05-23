@@ -831,8 +831,16 @@ blink.onmouseover= function rojoOut(){
  
 
  
-  
+var important1 = document.getElementById("important1");
+var importx = document.getElementById("importx");
+
+important1.onmouseover= function iluminadox(){
+    
+  importx.style.color = 'red';
  
+};
+
+
 
 
   
@@ -845,6 +853,8 @@ wordIluminated();
 rojoIn();
 rojoOut();
 underLine();
+iluminadox();
+
 
 /*
 wordIluminated();
