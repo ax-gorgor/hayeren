@@ -15,11 +15,40 @@ font-family: sans-serif;}
      
      .encabezado{margin-left: 25px; width: 810px; min-width: 250px;}
      
-     .in-flex1{margin-left: 25px;margin-top: -5px; display:flex; flex-wrap:wrap;
+     .in-flex1{margin-left: 25px;margin-top: -5px; display:flex; flex-direction: column; flex-wrap:wrap;
                background-color: #320045; width: 800px; padding: 5px; min-width: 250px;
               font-size: 24px;}
+
+              .in-flex { 
      
+                flex: 1; min-width: 250px;
+                font-size: 20px;
+                position: relative;
+                display: block;
+                flex-direction: row;
+                flex-wrap: wrap;
+              
+            }
      
+     .chapter1{display: block;
+        position: relative;
+             flex-direction: row;
+             flex-wrap: wrap;
+             padding: 4px 4px;} 
+
+      .chapter2{display: block;
+             flex-direction: row;
+             flex-wrap: wrap;
+             position: relative;
+             padding: 4px 4px;} 
+
+     .chapter3{display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 4px 4px;
+         margin-top: 150%;}
+
      
      .clase1 {padding: 5px; margin: 5px;border-radius: 5%; font-size: 18px; font-family: sans-serif; }
      .clase2 {padding: 5px; margin: 5px;border-radius: 5%;font-size: 18px; font-family: sans-serif;}
@@ -50,6 +79,7 @@ font-family: sans-serif;}
      
      
      .home {display: flex;
+        flex-direction: row;
             flex-wrap: wrap;
      
      }
@@ -61,12 +91,7 @@ font-family: sans-serif;}
      .alex1{padding: 5px; margin-left: 20px;}
      
      
-     .in-flex { 
      
-         flex: 1; min-width: 250px;
-         font-size: 20px;
-         z-index: 10;
-     }
      
      .in-flex:first-child { 
      
@@ -106,9 +131,13 @@ font-family: sans-serif;}
                          background: #ebebeb;
                         padding: 5px;
                         border-radius: 5px;
+                        display:inline-block;
+                         position: relative;
+                         overflow: hidden;
                        }
 
- .sonidoDeLasLetras2{text-decoration: underline  ;}
+ .sonidoDeLasLetras2{text-decoration: underline;
+                          }
 
  .anclaje{margin-top: 72px;}
 
@@ -116,6 +145,7 @@ font-family: sans-serif;}
                    background: rgb(238, 238, 238); 
                    line-height: 48px;
                     margin-top: 36px;
+                   
                    
                     }
 
