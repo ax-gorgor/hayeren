@@ -27,20 +27,35 @@ font-family: sans-serif;}
                 display: block;
                 flex-direction: row;
                 flex-wrap: wrap;
-              
-            }
-     
-     .chapter1{display: block;
-        position: relative;
-             flex-direction: row;
-             flex-wrap: wrap;
-             padding: 4px 4px;} 
+              }
 
-      .chapter2{display: block;
+    .in-flex .chapter1 h1{margin-left: -40px;}
+     
+   .chapter1{position: relative;
+             display: flex;
+            flex-direction: row;
+             flex-wrap: wrap;
+             padding: 4px 4px;
+             white-space: nowrap;
+             } 
+
+ 
+
+.chapter2 h2   {display: flex;
              flex-direction: row;
              flex-wrap: wrap;
              position: relative;
-             padding: 4px 4px;} 
+             margin-left: -36px;
+             z-index: 100;
+            padding: 0px; }
+
+.titulo{margin-top: -6px;}
+ 
+
+
+
+             
+
 
      .chapter3{display: block;
         flex-direction: row;
@@ -105,7 +120,8 @@ font-family: sans-serif;}
      
      
       
-     .volver_1  { width: 100px; }
+    .volver_1  { width: 100px;
+                    }
 
      
    
@@ -134,6 +150,7 @@ font-family: sans-serif;}
                         display:inline-block;
                          position: relative;
                          white-space: nowrap;
+                         margin-left: -80px;
                        }
 
  .sonidoDeLasLetras2{text-decoration: underline;
@@ -141,7 +158,8 @@ font-family: sans-serif;}
 
  .anclaje{margin-top: 72px;}
 
- .in-flex .examples{color:#000000;
+ .in-flex .examples{position: relative;
+                    color:#000000;
                    background: rgb(238, 238, 238); 
                    line-height: 48px;
                     margin-top: 36px;
