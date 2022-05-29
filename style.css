@@ -175,7 +175,14 @@ font-family: sans-serif;}
 
 .traduccionesSombreadas{ color: rgb(180, 180, 180); font-size: 16px;}
 
+.indicativos{color: rgb(255, 0, 0); margin: 2px; padding: 2px;}
 
+.posesivos{color:rgb(0, 0, 255); margin: 2px; padding: 2px;}
+
+.conjugacion{color: rgb(255, 166, 0); margin: 2px; padding: 2px;}
+
+
+.sustantivo{color:green; margin: 2px; padding: 2px;}
 
      
    
